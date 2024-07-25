@@ -1,0 +1,17 @@
+name: avacloud_demo_dart
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.4.4
+
+# Add regular dependencies here.
+dependencies:
+  avacloud_client_dart: ^1.0.0-beta0001
+  http: '>=0.13.0 <2.0.0'
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
